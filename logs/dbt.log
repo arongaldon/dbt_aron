@@ -1,0 +1,72 @@
+[0m14:16:20.341191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5e06702c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5e09b7ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5e08e7350>]}
+
+
+============================== 14:16:20.378384 | 658cb5b2-01af-4431-bf3d-0268e6b6145a ==============================
+[0m14:16:20.378384 [info ] [MainThread]: Running with dbt=1.10.13
+[0m14:16:20.378988 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'profiles_dir': '/home/arong/.dbt', 'target_path': 'None', 'invocation_command': 'dbt init', 'empty': 'None', 'printer_width': '80', 'introspect': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'partial_parse': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'version_check': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'no_print': 'None', 'warn_error': 'None', 'log_path': 'logs', 'write_json': 'True'}
+[0m14:16:20.416848 [info ] [MainThread]: Creating dbt configuration folder at /home/arong/.dbt
+[0m14:16:28.192775 [debug] [MainThread]: Starter project path: /home/arong/dbt_aron/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:16:28.197044 [info ] [MainThread]: 
+Your new dbt project "dbt_aron" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:16:28.197509 [info ] [MainThread]: Setting up your profile.
+[0m14:16:28.198323 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m14:16:28.201107 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 7.902527, "process_in_blocks": "17016", "process_kernel_time": 0.346217, "process_mem_max_rss": "122988", "process_out_blocks": "33520", "process_user_time": 2.466311}
+[0m14:16:28.201575 [debug] [MainThread]: Command `dbt init` failed at 14:16:28.201480 after 7.90 seconds
+[0m14:16:28.202047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5e086a780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5e024cd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e5dfc40b60>]}
+[0m14:16:28.202506 [debug] [MainThread]: Flushing usage events
+[0m14:16:28.828588 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:34.998632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b2012ede0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b20460f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b20460fb0>]}
+
+
+============================== 14:18:35.001418 | bcee8f32-9730-4625-b608-74f20b9dd7ab ==============================
+[0m14:18:35.001418 [info ] [MainThread]: Running with dbt=1.10.13
+[0m14:18:35.002010 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'printer_width': '80', 'use_experimental_parser': 'False', 'quiet': 'False', 'write_json': 'True', 'target_path': 'None', 'log_path': 'logs', 'debug': 'False', 'use_colors': 'True', 'log_format': 'default', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': '/home/arong/.dbt', 'empty': 'None', 'fail_fast': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'no_print': 'None', 'log_cache_events': 'False', 'version_check': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:18:35.010943 [info ] [MainThread]: dbt version: 1.10.13
+[0m14:18:35.011320 [info ] [MainThread]: python version: 3.12.3
+[0m14:18:35.011950 [info ] [MainThread]: python path: /home/arong/dbt_aron/.venv/bin/python3
+[0m14:18:35.012231 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m14:18:35.012525 [info ] [MainThread]: Using profiles dir at /home/arong/.dbt
+[0m14:18:35.012801 [info ] [MainThread]: Using profiles.yml file at /home/arong/.dbt/profiles.yml
+[0m14:18:35.013090 [info ] [MainThread]: Using dbt_project.yml file at /home/arong/dbt_aron/dbt_project.yml
+[0m14:18:35.013385 [info ] [MainThread]: Configuration:
+[0m14:18:35.013655 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m14:18:35.013932 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:18:35.014195 [info ] [MainThread]: Required dependencies:
+[0m14:18:35.014468 [debug] [MainThread]: Executing "git --help"
+[0m14:18:35.016358 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:18:35.016675 [debug] [MainThread]: STDERR: "b''"
+[0m14:18:35.016907 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:18:35.017171 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m14:18:35.017468 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:18:35.017755 [info ] [MainThread]: dbt looked for a profiles.yml file in /home/arong/.dbt/profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:18:35.018049 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/arong/dbt_aron/dbt_project.yml> not found
+
+[0m14:18:35.018751 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.06133605, "process_in_blocks": "0", "process_kernel_time": 0.160567, "process_mem_max_rss": "98496", "process_out_blocks": "80", "process_user_time": 0.932819}
+[0m14:18:35.019124 [debug] [MainThread]: Command `dbt debug` failed at 14:18:35.019043 after 0.06 seconds
+[0m14:18:35.019415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b2021eff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b205af980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x778b2067f890>]}
+[0m14:18:35.019757 [debug] [MainThread]: Flushing usage events
+[0m14:18:35.615154 [debug] [MainThread]: An error was encountered while trying to flush usage events
