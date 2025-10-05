@@ -1,4 +1,4 @@
-
+# dbt generated files
 target/
 dbt_packages/
 logs/
