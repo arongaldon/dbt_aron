@@ -2,9 +2,11 @@
 
 WITH source_data AS (
 
-    SELECT 1 AS id
+    SELECT 1 AS id, 'uno' AS name
     UNION ALL
-    SELECT NULL AS id
+    SELECT NULL AS id, 'nulo' AS name
+    UNION ALL
+    SELECT 2 AS id, 'dos' AS name
 
 ),
 
