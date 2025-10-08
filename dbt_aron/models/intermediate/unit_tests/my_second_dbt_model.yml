@@ -1,0 +1,12 @@
+unit_tests:
+  - name: test_if_only_id_1_is_chosen
+    model: my_second_dbt_model
+    given:
+      - input: ref('my_first_dbt_model')
+        rows:
+          - id: 1
+          - id: 2
+          - id: 3
+    expect:
+      rows:
+        - id: 1
